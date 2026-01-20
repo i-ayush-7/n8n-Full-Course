@@ -99,7 +99,7 @@ CRITICAL RULES:
 
 ## Project 4: Instagram Automation
 
-![IMG]()
+![IMG](https://github.com/i-ayush-7/n8n-Full-Course/blob/main/4th.png)
 
 **HTTP REQUEST NODES LINK**
 ```
