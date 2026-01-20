@@ -298,3 +298,4 @@ Before running these workflows, ensure you have the following:
 * **API Keys:** Required for services used in the projects (e.g., OpenAI, Google Cloud Console, Telegram, etc.).
 * **Basic JavaScript/Python Knowledge:** Helpful for the Code Node sections but not strictly mandatory.
 
+*Project By: Ayush Shukla*
