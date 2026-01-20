@@ -117,7 +117,7 @@ https://graph.facebook.com/v18.0/<INSTA BUSINESS ACC ID>/messages
 {{ $json.text.toLowerCase() }}
 ``
 
-**HTTP REQUEST NODE 2(JSON CODE)**
+**HTTP REQUEST NODE 2 CODE**
 ```
 {
   "recipient": {
