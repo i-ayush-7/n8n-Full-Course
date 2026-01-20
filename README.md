@@ -2,7 +2,7 @@
 
 This repository contains all the workflow JSON files, code snippets, and resources for the "Full n8n Crash Course" on YouTube. This course is designed to take you from a complete beginner to building complex, AI-powered automation workflows.
 
-![WATCH FREE TUTORIAL](https://youtu.be/rKqAzuHjZ3Y)
+## Watch Complete Youtube Tutorial----->>>>!(https://youtu.be/rKqAzuHjZ3Y)
 
 ## Course Overview
 
