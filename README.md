@@ -111,10 +111,12 @@ https://graph.facebook.com/v18.0/{{ $json.id }}/comments
 
 https://graph.facebook.com/v18.0/<INSTA BUSINESS ACC ID>/messages
 ```
+
 **IF NODE**
 ``
 {{ $json.text.toLowerCase() }}
 ``
+
 **HTTP REQUEST NODE 2(JSON CODE)**
 ```
 {
