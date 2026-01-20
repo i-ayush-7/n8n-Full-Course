@@ -8,7 +8,7 @@ In this course, we build five distinct projects ranging from basic automation to
 
 ## Project 1: Workflow Automation
 
-![IMG]()
+![IMG](https://github.com/i-ayush-7/n8n-Full-Course/blob/main/1st.png)
 
 ```
    <!DOCTYPE html>
