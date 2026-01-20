@@ -34,7 +34,7 @@ In this course, we build five distinct projects ranging from basic automation to
                 message: e.target.message.value
             };
 
-            const response = await fetch('https://i-ayush-7.app.n8n.cloud/webhook-test/form1', {
+            const response = await fetch('YOUR WEBHOOK URL', {
                 method: 'POST',
                 headers: {'Content-Type': 'application/json'},
                 body: JSON.stringify(formData)
