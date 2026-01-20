@@ -6,8 +6,6 @@ This repository contains all the workflow JSON files, code snippets, and resourc
 
 In this course, we build five distinct projects ranging from basic automation to advanced AI agents. Each folder corresponds to a specific project module in the video.
 
-## Projects Included
-
 ## Project 1: Workflow Automation
 ```
    <!DOCTYPE html>
@@ -50,7 +48,7 @@ In this course, we build five distinct projects ranging from basic automation to
 </html> 
 ```
 ## Project 2: Weather Updates Automation
-**LINK**
+**HTTP LINK**
 ```
 https://api.openweathermap.org/data/2.5/weather?q=<YOUR CITY>,IN&appid=<YOUR API KEY>&units=metric
 ```
@@ -65,7 +63,7 @@ https://serpapi.com/search.json
 {{ $json.product_name.split(':')[0].replace(/\n/g, " ").trim() }}
 ```
 
-** AI AGENT PROMPT**
+**AI AGENT PROMPT**
 ```
 You are a Shopping Assistant.
 This {{ JSON.stringify($json) }} is the JSON dataset of Google Shopping results.
@@ -104,8 +102,8 @@ https://graph.facebook.com/v18.0/<INSTA BUSINESS ACC ID>/messages
 ``
 {{ $json.text.toLowerCase() }}
 ``
-** HTTP REQUEST NODE 2(JSON CODE)**
-``
+**HTTP REQUEST NODE 2(JSON CODE)**
+```
 {
   "recipient": {
     "id": "{{ $json.from.id }}"
