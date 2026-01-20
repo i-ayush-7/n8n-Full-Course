@@ -7,6 +7,9 @@ This repository contains all the workflow JSON files, code snippets, and resourc
 In this course, we build five distinct projects ranging from basic automation to advanced AI agents. Each folder corresponds to a specific project module in the video.
 
 ## Project 1: Workflow Automation
+
+![IMG]()
+
 ```
    <!DOCTYPE html>
 <html>
@@ -48,12 +51,18 @@ In this course, we build five distinct projects ranging from basic automation to
 </html> 
 ```
 ## Project 2: Weather Updates Automation
+
+![IMG]()
+
 **HTTP LINK**
 ```
 https://api.openweathermap.org/data/2.5/weather?q=<YOUR CITY>,IN&appid=<YOUR API KEY>&units=metric
 ```
 
 ## Project 3: Top Deals Finder Automation
+
+![IMG]()
+
 **JSON**
 ```
 {{ $json.message.link_preview_options.url }}
@@ -90,6 +99,8 @@ CRITICAL RULES:
 
 ## Project 4: Instagram Automation
 
+![IMG]()
+
 **HTTP REQUEST NODES LINK**
 ```
 https://graph.facebook.com/v18.0/<INSTAGRAM BUSINESS ACCOUNT ID>/media
@@ -113,9 +124,11 @@ https://graph.facebook.com/v18.0/<INSTA BUSINESS ACC ID>/messages
   },
   "access_token": "YOUR LONG LIVED TOKEN"
 }
-``
+```
     
 ## Project 5: YouTube Content Automation
+
+![IMG]()
 
 **AI AGENT 1&2 PROMPTPS**
 ```
@@ -281,27 +294,3 @@ Before running these workflows, ensure you have the following:
 * **API Keys:** Required for services used in the projects (e.g., OpenAI, Google Cloud Console, Telegram, etc.).
 * **Basic JavaScript/Python Knowledge:** Helpful for the Code Node sections but not strictly mandatory.
 
-## How to Use This Repository
-
-1.  **Clone the Repo:**
-    ```bash
-    git clone [https://github.com/yourusername/n8n-crash-course.git](https://github.com/yourusername/n8n-crash-course.git)
-    ```
-
-2.  **Import Workflows:**
-    * Open your n8n dashboard.
-    * Create a new workflow.
-    * Click on the three dots in the top right corner > **Import from File**.
-    * Select the `.json` file from the respective project folder (e.g., `project-01-basics/workflow.json`).
-
-3.  **Configure Credentials:**
-    * Double-click nodes that require authentication.
-    * Select **Create New Credential** and input your specific API keys.
-
-## Setup & Installation (Self-Hosted)
-
-If you are running n8n locally using npm:
-
-```bash
-npm install n8n -g
-n8n start
