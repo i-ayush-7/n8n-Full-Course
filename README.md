@@ -1,5 +1,3 @@
-# n8n Full Course
-
 # Full n8n Crash Course: Build 5 Real-World Automation Projects
 
 This repository contains all the workflow JSON files, code snippets, and resources for the "Full n8n Crash Course" on YouTube. This course is designed to take you from a complete beginner to building complex, AI-powered automation workflows.
@@ -8,32 +6,56 @@ This repository contains all the workflow JSON files, code snippets, and resourc
 
 In this course, we build five distinct projects ranging from basic automation to advanced AI agents. Each folder corresponds to a specific project module in the video.
 
-### Projects Included
+## Projects Included
 
-1.  **Project 1: Foundation & Basics**
-    * **Goal:** Introduction to nodes, connections, and basic data flow.
-    * **Key Nodes:** Webhook, Set, HTTP Request.
-    * **Location:** `/project-01-basics`
+## Project 1: Workflow Automation
+```
+   <!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Form</title>
+</head>
+<body>
+    <h2>Contact Form</h2>
+    <form id="contactForm">
+        <input type="text" name="name" placeholder="Your Name" required><br><br>
+        <input type="email" name="email" placeholder="Your Email" required><br><br>
+        <textarea name="message" placeholder="Your Message" required></textarea><br><br>
+        <button type="submit">Submit</button>
+    </form>
 
-2.  **Project 2: AI Chatbot Agent**
-    * **Goal:** Building a conversational AI agent using LLMs.
-    * **Key Nodes:** AI Agent, OpenAI/Gemini Chat Model, Memory Buffer.
-    * **Location:** `/project-02-ai-agent`
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const formData = {
+                name: e.target.name.value,
+                email: e.target.email.value,
+                message: e.target.message.value
+            };
 
-3.  **Project 3: YouTube Content Automation**
-    * **Goal:** Automating video metadata generation and uploading.
-    * **Key Nodes:** YouTube API, Google Sheets, HTTP Request.
-    * **Location:** `/project-03-youtube-automation`
+            const response = await fetch('https://i-ayush-7.app.n8n.cloud/webhook-test/form1', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify(formData)
+            });
 
-4.  **Project 4: Data Analysis Workflow**
-    * **Goal:** Processing datasets and visualizing data automatically.
-    * **Key Nodes:** Code Node (Python), Spreadsheet File, Email.
-    * **Location:** `/project-04-data-processing`
-
-5.  **Project 5: Advanced Complex Workflow**
-    * **Goal:** A full-scale enterprise automation scenario with error handling.
-    * **Key Nodes:** Merge, Switch, Error Trigger, Split In Batches.
-    * **Location:** `/project-05-advanced-workflow`
+            if(response.ok) {
+                alert('Form submitted successfully!');
+                e.target.reset();
+            }
+        });
+    </script>
+</body>
+</html> 
+```
+## Project 2: AI Chatbot Agent**
+    
+## Project 3: YouTube Content Automation**
+    
+## Project 4: Data Analysis Workflow**
+    
+## Project 5: Advanced Complex Workflow**
 
 ## Prerequisites
 
