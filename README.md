@@ -61,7 +61,7 @@ https://api.openweathermap.org/data/2.5/weather?q=<YOUR CITY>,IN&appid=<YOUR API
 
 ## Project 3: Top Deals Finder Automation
 
-![IMG]()
+![IMG](https://github.com/i-ayush-7/n8n-Full-Course/blob/main/3rd.png)
 
 **JSON**
 ```
