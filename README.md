@@ -2,6 +2,8 @@
 
 This repository contains all the workflow JSON files, code snippets, and resources for the "Full n8n Crash Course" on YouTube. This course is designed to take you from a complete beginner to building complex, AI-powered automation workflows.
 
+![WATCH FREE TUTORIAL](https://youtu.be/rKqAzuHjZ3Y)
+
 ## Course Overview
 
 In this course, we build five distinct projects ranging from basic automation to advanced AI agents. Each folder corresponds to a specific project module in the video.
@@ -128,7 +130,7 @@ https://graph.facebook.com/v18.0/<INSTA BUSINESS ACC ID>/messages
     
 ## Project 5: YouTube Content Automation
 
-![IMG]()
+![IMG](https://github.com/i-ayush-7/n8n-Full-Course/blob/main/5th.png)
 
 **AI AGENT 1&2 PROMPTPS**
 ```
