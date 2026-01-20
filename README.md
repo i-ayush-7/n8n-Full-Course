@@ -52,7 +52,7 @@ In this course, we build five distinct projects ranging from basic automation to
 ```
 ## Project 2: Weather Updates Automation
 
-![IMG]()
+![IMG](https://github.com/i-ayush-7/n8n-Full-Course/blob/main/2nd.png)
 
 **HTTP LINK**
 ```
